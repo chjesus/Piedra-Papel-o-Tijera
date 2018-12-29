@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Piedra, Papel y Tijera</title>
+</head>
+<body>
+    <div class="container">
+        <div class="scores">
+            <div class="date date--user">
+                <div class="score score--user" id="user">0</div>
+                <div class="name name--user">USER</div>
+            </div>
+            <div class="date date--computer">
+                <div class="score score--computer" id="comp">0</div>
+                <div class="name name--computer">COMP</div>
+            </div>
+        </div>
+        <h1 class="title">Ronda: <span id="ronda">1</span></h1>
+        <h2 class="resultado" id="resultado">. . .</h2>
+        <div class="option">    
+            <div class="option__item" id="piedra"><img src="img/piedra.svg" alt=""></div>
+            <div class="option__item" id="papel"><img src="img/papel.svg" alt=""></div>
+            <div class="option__item" id="tijera"><img src="img/tijera.svg" alt=""></div>
+        </div>
+        <span class="resultado">Elija tu opción.</span>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
